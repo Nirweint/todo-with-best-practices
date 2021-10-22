@@ -33,9 +33,9 @@ export function Todolist(props: PropsType) {
             {liElement}
         </ul>
         <div>
-            <button onClick={() => {props.filterTasks("all")}}>All</button>
-            <button onClick={() => {props.filterTasks("active")}}>Active</button>
-            <button onClick={() => {props.filterTasks("completed")}}>Completed</button>
+            <button >All</button>
+            <button >Active</button>
+            <button >Completed</button>
         </div>
     </div>
 }
